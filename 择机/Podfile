@@ -1,0 +1,54 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+target 'jipiao' do
+#pod 'Base64nl'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'NSDate-Extensions', '~> 0.0.1'
+#pod 'OHAttributedLabel'
+pod 'OpenUDID', '~> 1.0.0'
+pod 'SDWebImage', '~> 3.8.1'
+#pod 'RTLabel'
+pod 'MJRefresh', '~>3.1.12 '
+#pod 'TSMessages'
+#pod 'ViewUtils'
+#pod 'Reachability', '~> 3.2'
+#pod 'FMDB'
+#pod 'PBWebViewController'
+pod 'Mantle' , '~> 1.5.4'
+pod 'HexColors', '~>2.2.1'
+pod 'Masonry', '~>1.0.1'
+#pod 'MCColoredPageControl', '~> 1.0.1'
+#pod 'DZNEmptyDataSet'			    # 设置列表为空
+#pod 'XXNibBridge','~> 2.1'                  # 实现xib重用
+#pod 'TPKeyboardAvoiding'                    # 处理 scrollview, tableview 键盘盖住 textFiled, textView
+#pod 'WYPopoverController', '~> 0.2.2'       # 在当前ViewController弹出新的ViewController
+#pod 'SZTextView'                            # 带 placeHolderText 的 UITextView
+#pod 'UITableView+FDTemplateLayoutCell'      # UITableViewCell 自动高度计算，缓存
+#pod 'ReactiveCocoa'
+pod 'FDFullscreenPopGesture', '1.1'
+pod 'DZNEmptyDataSet'
+pod 'UITableView+FDTemplateLayoutCell'     # UITableViewCell 自动高度计算，缓存
+pod 'DateTools'
+
+#pod 'PNChart'
+#pod 'JTMaterialTransition', '~> 1.0'
+#pod 'ZXingObjC'#, '~> 3.0'
+#pod 'TYAlertController', '~> 1.1.3'
+#pod 'YYText'
+
+#pod 'ASIHTTPRequest'
+#pod 'WebViewJavascriptBridge'
+pod 'IQKeyboardManager', '~>3.3.7'
+#pod 'UMengSocialCOM', '~> 5.2.1'        #友盟
+pod 'UMengAnalytics-NO-IDFA'    #无IDFA版SDK（请根据需要选择其中一个）
+pod 'HyphenateLite_CN'  , '~>3.2.2.2'
+#pod 'HyphenateFullSDK', :git => 'https://github.com/easemob/hyphenate-full-cocoapods.git'
+#pod 'NJKWebViewProgress'
+
+
+#pod 'VKVideoPlayer', '~> 0.1.1'
+#pod 'HyphenateSDK', :git => 'https://github.com/easemob/hyphenate-cocoapods.git'
+end

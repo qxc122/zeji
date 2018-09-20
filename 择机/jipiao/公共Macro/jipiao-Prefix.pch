@@ -1,0 +1,43 @@
+//
+//  jipiao-Prefix.pch
+//  jipiao
+//
+//  Created by Store on 16/8/1.
+//  Copyright © 2016年 admin. All rights reserved.
+//
+
+#ifndef jipiao_Prefix_pch
+#define jipiao_Prefix_pch
+
+#define guoji_tiket  //是否有国际机票
+
+//#import <Availability.h>
+
+//#ifndef __IPHONE_3_0
+//#warning "This project uses features only available in iOS SDK 3.0 and later."
+//#endif
+#define TARGET_OS_IPHONE 1
+
+//#define REDPACKET_AVALABLE
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ChatDemoUIDefine.h"
+
+
+//#import "EMSDKFull.h"
+#import "EaseUI.h"
+
+#define DEMO_CALL 0
+#endif
+
+#endif /* jipiao_Prefix_pch */

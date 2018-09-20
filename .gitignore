@@ -5,6 +5,7 @@
 ## Build generated
 build/
 DerivedData/
+择机/Pods/
 
 ## Various settings
 *.pbxuser
